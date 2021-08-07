@@ -1,13 +1,22 @@
 import React from 'react';
 
-import { Container, Image, Wrapper } from './styles';
-import Smarphone from '../../assets/images/smartphone.svg';
+import { Container,Smartphone, Wrapper, Prism, Triangle, BoxImageContent} from './styles';
+// import Smarphone from '../../assets/images/smartphone.svg';
+import Smarphone from '../../assets/images/smartphone.png';
+import PrismIcon from '../../assets/images/prism.png';
+import TriangleIcon from '../../assets/images/triangle.png';
 
 const ImageBar: React.FC = () => {
   return (
     <Container>
       <Wrapper>
-        <Image src={Smarphone}/>
+
+      <BoxImageContent>
+        <Smartphone src={Smarphone}/>
+        <Prism src={PrismIcon}/>
+        <Triangle src={TriangleIcon}/>
+      </BoxImageContent>
+
       </Wrapper>
     </Container>
   );
