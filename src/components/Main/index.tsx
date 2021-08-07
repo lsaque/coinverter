@@ -1,11 +1,26 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { 
+  Container,
+  Top,
+  Bot
+} from './styles';
+
+import Header from '../Header';
+import Content from '../Content';
+import Footer from '../Footer';
+
 
 const Main: React.FC = () => {
   return (
     <Container>
-      <h1>slave</h1>
+      <Top>
+        <Header/>
+        <Content/>
+      </Top>
+      <Bot>
+        <Footer/>
+      </Bot>
     </Container>
   );
 }
