@@ -1,26 +1,33 @@
-// import rfs from '~rfs/scss';
 import { createGlobalStyle } from 'styled-components';
 
-import rfs from './rfs';
+import Blur from '../images/blur.png';
 
 export default createGlobalStyle`
-  /* ${rfs(`9rem`)} */
   :root{
     font-size: 62.5%;
+    overflow-x: hidden;
 
     --white: #fff;
     --purple: purple;
   }
 
   html {
-    background: linear-gradient(205deg,rgba(14, 8, 35, 1) 0%,rgba(60, 31, 139, 1) 100%);
+    background:
+      url(${Blur}), 
+      linear-gradient(
+        205deg,rgba(14, 8, 35, 1) 0%,
+        rgba(60, 31, 139, 1) 100%
+      );
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
   }
   
   html, border-style, #root{
-    max-height: 100vh;
+    /* max-height: 100vh; */
     max-width: 100vw;
 
-    height: 100%;
+    height: 100vh;
     width: 100%;
   }
     
