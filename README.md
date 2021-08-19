@@ -1,3 +1,16 @@
+# Coinverter
+
+> That's a simple crypto converter page for use. Coming soon integrated API.
+This page is going to be responsive and will make a connection with a real crypto API converter.
+
+![Logo](link)
+
+## Prototype
+
+> This one is the final project prototype.
+![Prototype](link)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
