@@ -8,6 +8,7 @@ This page is going to be responsive and will make a connection with a real crypt
 ## Prototype
 
 > This one is the final project prototype.
+
 ![Prototype](https://raw.githubusercontent.com/lsaque/coinverter/master/.github/prototype.png)
 
 
